@@ -7,14 +7,16 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+        <b>n va m butun musbat sonlari berilgan (n > m). n sonini m soniga bo'lib butun va qoldiq qismlarini bo'lish va qoldiqni olish amallarini ishlatmasdan topuvchi programma tuzilsin.</b><br>
 
-        <label for="">n:</label>
+        <label for="">N:</label>
         <input type="number" name="n"><br>
+
+        <label for="">M:</label>
+        <input type="number" name="m"><br>
 
         <input type="submit" name="s1" value="SEND">
 
     </form>
-   
 </body>
 </html>

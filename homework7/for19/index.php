@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+    <b>(n>0).n!=1*2*3*...*n</b><br>
 
         <label for="">n:</label>
         <input type="number" name="n"><br>

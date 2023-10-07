@@ -7,10 +7,13 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+    <b>(n>0).1+x+x^2/2!+x^3/3!+x^4/4!+...+x^n/n!</b><br>
 
         <label for="">n:</label>
         <input type="number" name="n"><br>
+
+        <label for="">x:</label>
+        <input type="number" name="x"><br>
 
         <input type="submit" name="s1" value="SEND">
 

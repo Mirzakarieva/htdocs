@@ -7,10 +7,13 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+    <b>(n>0).S=1+a+a^2+a^3...+a^n</b><br>
 
         <label for="">n:</label>
         <input type="number" name="n"><br>
+
+        <label for="">a:</label>
+        <input type="number" name="a"><br>
 
         <input type="submit" name="s1" value="SEND">
 

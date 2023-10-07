@@ -7,14 +7,13 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+        <b>n butun soni berilgan (n> 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarining orasida 2 raqami bor-yo'qligini aniqlovchi programma tuzilsin.</b><br>
 
-        <label for="">n:</label>
+        <label for="">N:</label>
         <input type="number" name="n"><br>
 
         <input type="submit" name="s1" value="SEND">
 
     </form>
-   
 </body>
 </html>

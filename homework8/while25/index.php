@@ -7,14 +7,13 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+        <b>n butun soni berilgan (n> 1). n sonidan katta bo'lgan birinchi Fibonachchi sonini aniqlovchi programma tuzilsin.</b><br>
 
-        <label for="">n:</label>
+        <label for="">N:</label>
         <input type="number" name="n"><br>
 
         <input type="submit" name="s1" value="SEND">
 
     </form>
-   
 </body>
 </html>

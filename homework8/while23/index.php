@@ -7,14 +7,16 @@
 </head>
 <body>
     <form action="test.php" method="POST">
-    <b>(n>0).Count Sn=1.1-1.2+1.3-...</b><br>
+        <b>  a va b butun musbat sonlari berilgan. Berilgan sonlarning eng katta umumiy bo'luvchisini aniqlovchi programma tuzilsin.</b><br>
 
-        <label for="">n:</label>
-        <input type="number" name="n"><br>
+        <label for="">A:</label>
+        <input type="number" name="a"><br>
+
+        <label for="">B:</label>
+        <input type="number" name="b"><br>
 
         <input type="submit" name="s1" value="SEND">
 
     </form>
-   
 </body>
 </html>
