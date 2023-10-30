@@ -1,4 +1,6 @@
-<?php session_start() ; ?>
+<?php 
+session_start() ;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +26,7 @@ if(isset($_GET["s1"])){
     if($login == "Admin" && $password == "Macbook"){
         $_SESSION["check"] = 1;
 
-        header("locaation:index.php") ;
+        header("location:index.php") ;
     }else{
         echo "Login yoki parol hato" ;
     }
