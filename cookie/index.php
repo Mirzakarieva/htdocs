@@ -6,46 +6,7 @@
 </form>
 
 <?php
-$people = [ 
-    [
-        "id" => 1 ,
-        "usename" => "Mohira",
-        "login"=> "Mirzakariyeva",
-        "password" => "1q2w3e4R",
-        
-    ],
-
-    [
-        "id" => 2 ,
-        "name" => "Svetlana",
-        "login"=> "Zuyeva",
-        "password" => "1q2w3e4T",
-    ],
-
-    [
-        "id" => 3 ,
-        "name" => "Aygul",
-        "login"=> "Alibekova",
-        "password" => "1q2w3e4Y",
-    ],
-
-    [
-        "id" => 4 ,
-        "name" => "Shahodat",
-        "login"=> "Djurayevna",
-        "password" => "1q2w3e4U",
-    ],
-
-    [
-        "id" => 5 ,
-        "name" => "Alyona",
-        "login"=> "Savicheva",
-        "password" => "1q2w3e4O",
-    ] 
-] ;
-
-$loginArr = [ ] ;
-$passwordArr = [ ] ;
+include"data.php" ;
 
 foreach($people as $person){
     array_push($loginArr , $person["login"]) ;
@@ -53,21 +14,11 @@ foreach($people as $person){
 }
 
 
-// for($i = 0 ; $i <= count($people) ; $i++){
-
-//     setcookie("login" , $people["login"]) ;
-//     setcookie("password" , $people["password"]) ;
-// }
-
-
 
 if(isset($_POST["s1"])){
     $log = $_POST["login"] ;
     $pass = $_POST["password"] ;
-
-    // if($_COOKIE["login"] == $log and $_COOKIE["password"] == $pass){
-        for($i = 0 ; $i < count($people) ; $i++){
-            if($pass == $passwordArr[$i] and $log == $loginArr[$i] ){ ?>
+?>
             <!DOCTYPE html>
             <html lang="en">
             <head>
